@@ -15,6 +15,12 @@ protocol ArtistDetailPresenter {
 protocol NewArtistDetailPresenter {
     func onNewArtist()
 }
+protocol NewArtistDetailPresenter1 {
+    func onNewArtist1()
+}
+protocol NewArtistDetailPresenter2 {
+    func onNewArtist2()
+}
 protocol ArtistDetailComponent: AnyObject {
     func render(_ props: ArtistDetailProps)
 }
